@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <td colspan="4"><div id="tela">0</div></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><button onclick="calculadora('zerar')" class="zerar">C</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora('7')">7</button></td>
+                <td><button onclick="calculadora('8')">8</button></td>
+                <td><button onclick="calculadora('9')">9</button></td>
+                <td><button onclick="calculadora('/')">÷</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora('4')">4</button></td>
+                <td><button onclick="calculadora('4')">5</button></td>
+                <td><button onclick="calculadora('6')">6</button></td>
+                <td><button onclick="calculadora('*')">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora('1')">1</button></td>
+                <td><button onclick="calculadora('2')">2</button></td>
+                <td><button onclick="calculadora('3')">3</button></td>
+                <td><button onclick="calculadora('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora('0')">0</button></td>
+                <td><button onclick="calculadora('.')">.</button></td>
+                <td><button onclick="calculadora('=')">=</button></td>
+                <td><button onclick="calculadora('+')">+</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="teste"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
