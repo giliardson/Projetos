@@ -5,22 +5,44 @@
     font-weight: 900;
 }
 
+#tela{
+    border: 5px solid #8ccfca;
+    width: 235px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#segvisor{
+    padding: 5px;
+    background-color: #000000;
+    text-align: right;
+    font-size: 1.5em;
+    width: 225px;
+    margin: auto;
+    height: 20px;
+    color: white;
+}
+
+#primvisor{
+    padding: 5px;
+    background-color: #000000;
+    text-align: right;
+    font-size: 3em;
+    width: 225px;
+    margin: auto;
+    height: 40px;
+    color: white;
+}
+
 table{
     width: 245px;
     height: 350px;
     margin: auto;
     padding: 10px;
     background-color: #8ccfca;
-    border: 5px outset #8ccfca;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-#tela{
-    padding: 5px;
-    background-color: #99b099;
-    border: 3px inset #99b099;
-    text-align: right;
-    font-size: 3em;
-}
 
 .zerar{
     height: 40px;
